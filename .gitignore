@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+target/
+dbt_packages/
+logs/
+.DS_Store
+
+# Data never goes in Git
+landing/
+_ground_truth/
+*.csv
+*.jsonl
